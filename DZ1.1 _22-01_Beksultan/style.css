@@ -106,3 +106,16 @@ input[type="checkbox"]{
 .autorization-e-mail-title span{
     font-weight: 500;
 }
+
+.block_relative{
+    position: relative;
+    height: 300px;
+    width: 900px;
+    background: chartreuse;
+}
+.block_absolute{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+}

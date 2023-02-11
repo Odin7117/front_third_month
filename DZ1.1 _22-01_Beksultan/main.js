@@ -25,3 +25,17 @@ emailCheck.addEventListener("click", (e) => {
     alert('Пароль должен содержать буквы, цифры (0, тоже допускаются) и состоять из 8 - 20 символов')
   }
 });
+
+
+const blockAbsolute = document.querySelector(".block_absolute")
+
+let position = 0
+
+const right = () => {
+  if (position < 880){
+    position++
+    blockAbsolute.style.left = `${position}px`
+    setTimeout(right,1 )
+  }
+}
+right ()
