@@ -15,7 +15,7 @@ emailCheck.addEventListener("click", (e) => {
 
 const passwordInput = document.querySelector(".autorization-password");
 
-const regExp1 = /^[A-Za-z]\w{7,14}$/;
+const regExp1 = /^[A-Za-z]\w{4,15}$/;
 
 emailCheck.addEventListener("click", (e) => {
   console.log(regExp1.test(passwordInput.value));
