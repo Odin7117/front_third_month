@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body , div , h1 , ul ,p , img , h2 , h3 , input , button{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 149px;
+    background: #2C2670;
+}
+ul{
+    gap: 50px;
+    display: flex;
+}
+nav{
+    display: flex;
+    padding: 68px 48px 60px 0 ;
+}
+.burger-menu{
+    padding-left: 70px;
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+    padding: 48px 0 20px 54px;
+    color: #fff;
+}
+li{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    list-style-type: none;
+    color: #fff;
+}
+.instruction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    width: 418px;
+    height: 76px;
+    background: #16A767;
+    box-shadow: 10px 10px 20px #00000038;
+    margin: 49px auto;
+}
+.burger-menu {
+    padding-left: 70px
+}
+.games{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70px 20px;
+
+}
+.games div{
+    width: 320px;
+    background: #fff;
+    box-shadow: 5px 8px 10px #7a7979;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.games div img{
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+}
+.games div h2{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #050505;
+    margin-bottom: 30px;
+}
+.games div p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+}
